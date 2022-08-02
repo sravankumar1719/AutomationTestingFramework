@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+    "enabled": true,
+  "server": {
+    "url": "https://reportportal.epam.com/api/v1/",
+    "project": "sravan_grandhi_personal",
+    "authentication": {
+      "uuid": "01005838-570d-4eaa-bbac-3cf44ad80861"
+    }
+  },
+    "launch": {
+        "name": "Automation Tests",
+        "description": "this is description",
+        "debugMode": false
+    },
+    "rootNamespaces": [ "TestAutomationFramework" ]
+}

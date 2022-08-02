@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Common.UI", "Framework.Common.UI.csproj", "{37021596-098B-4860-8BA4-2545C8231EBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTests", "..\AutomationTests\AutomationTests.csproj", "{71748EB3-C4F9-4FC3-B2F9-DB8EC82459C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0CF5FDDF-DD87-4C10-805C-BC5664C0BEFC}"
+	ProjectSection(SolutionItems) = preProject
+		app.config = app.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTests", "..\SpecFlowTests\SpecFlowTests.csproj", "{70D03AFA-0E54-4150-9233-F3383178319E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowTest", "..\SpecFlowTest\SpecFlowTest.csproj", "{EF8E7693-82EE-492F-B819-95564FC11BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecFlowAutomationTests", "..\SpecFlowAutomationTests\SpecFlowAutomationTests.csproj", "{B60865F0-86C6-4F84-8B57-B14BF4B24F7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiAutomationTests", "..\ApiAutomationTests\ApiAutomationTests.csproj", "{5B30E188-8982-43EB-A819-F8E163E2DC00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37021596-098B-4860-8BA4-2545C8231EBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37021596-098B-4860-8BA4-2545C8231EBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37021596-098B-4860-8BA4-2545C8231EBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37021596-098B-4860-8BA4-2545C8231EBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71748EB3-C4F9-4FC3-B2F9-DB8EC82459C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71748EB3-C4F9-4FC3-B2F9-DB8EC82459C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71748EB3-C4F9-4FC3-B2F9-DB8EC82459C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71748EB3-C4F9-4FC3-B2F9-DB8EC82459C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70D03AFA-0E54-4150-9233-F3383178319E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70D03AFA-0E54-4150-9233-F3383178319E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70D03AFA-0E54-4150-9233-F3383178319E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70D03AFA-0E54-4150-9233-F3383178319E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF8E7693-82EE-492F-B819-95564FC11BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF8E7693-82EE-492F-B819-95564FC11BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF8E7693-82EE-492F-B819-95564FC11BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF8E7693-82EE-492F-B819-95564FC11BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60865F0-86C6-4F84-8B57-B14BF4B24F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60865F0-86C6-4F84-8B57-B14BF4B24F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60865F0-86C6-4F84-8B57-B14BF4B24F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60865F0-86C6-4F84-8B57-B14BF4B24F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B30E188-8982-43EB-A819-F8E163E2DC00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B30E188-8982-43EB-A819-F8E163E2DC00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B30E188-8982-43EB-A819-F8E163E2DC00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B30E188-8982-43EB-A819-F8E163E2DC00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8811D4C-A079-4E3D-8FE0-C96776484B1E}
+	EndGlobalSection
+EndGlobal
