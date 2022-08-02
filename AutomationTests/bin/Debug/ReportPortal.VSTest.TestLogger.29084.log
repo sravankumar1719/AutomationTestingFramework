@@ -1,0 +1,4 @@
+ReportPortalLogger Error: 0 : 11:57:59.4608231 : 2-Test Runner : Unexpected exception in Events_TestRunStart: System.Collections.Generic.KeyNotFoundException: Property 'Server:Url' not found in the configuration. Make sure you have configured it properly.
+   at ReportPortal.Shared.Configuration.Configuration.GetValue[T](String property)
+   at ReportPortal.Shared.Reporter.Http.ClientServiceBuilder.Build()
+   at ReportPortal.VSTest.TestLogger.ReportPortalLogger.Events_TestRunStart(Object sender, TestRunStartEventArgs e) in C:\projects\agent-net-vstest\src\ReportPortal.VSTest.TestLogger\ReportPortalLogger.cs:line 109
