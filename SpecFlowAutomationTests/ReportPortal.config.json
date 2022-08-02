@@ -1,0 +1,17 @@
+{
+  "$schema": "https://raw.githubusercontent.com/reportportal/agent-net-vstest/master/ReportPortal.VSTest.TestLogger/ReportPortal.config.schema",
+  "enabled": true,
+  "server": {
+    "url": "https://cr-reportportal.1129.aws.thomsonreuters.com/api/v1/",
+    "project": "uc261008_personal",
+    "authentication": {
+      "uuid": "c15bc060-badb-400a-888f-e443ec908d9a"
+    }
+  },
+  "launch": {
+    "name": "BDD Automation Tests",
+    "description": "this is description",
+    "debugMode": false
+  },
+  "rootNamespaces": [ "TestAutomationFramework" ]
+}
